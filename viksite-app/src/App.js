@@ -2,19 +2,43 @@
 import waves from './waves.svg';
 import './App.css';
 import './index.css'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import Navbar from './Navbar'
+// import About from './about'
+import Newsletter from './newsletter'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactDOM from 'react-dom/client'
 
 
 
 function App() {
+ return (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/about" element={<About />}/>
+   </Routes>
+</BrowserRouter>
+ )
+}
+
+function Home () {
   return (
     <body>
+      <h1>gello</h1>
+      <img src={waves} className="waves"/>
+    </body>
+    
+  )
+}
+
+function About() {
+  return (
+      <body>
       <div class="main">
         <div class="info">
           <h1 class="title">Victor Pham</h1>
           <p class="subtitle">Oklahoma City, OK</p>
-          <p class="subtitle">Heya, I'm Vik and love doing a lot of things! As of October 2023, I'm interested in hiking, tennis, snowboarding, and video editing! I'm a computer science graduate from the University of Oklahoma. </p>
+          <p class="subtitle">Heya, I'm Vik and love doing a lot of things! I'm a computer science graduate from the University of Oklahoma. </p>
         </div>
 
         <div class="midsection"></div>
@@ -34,8 +58,13 @@ function App() {
       </div>
       <img src={waves} className="waves"/>
     </body>
-  
-  );
+
+);
 }
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />
+
+ 
+)
 
 export default App;

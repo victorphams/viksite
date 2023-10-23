@@ -1,7 +1,8 @@
 import React from "react";
+import './App.css';
+import waves from './waves.svg';
 
-
-const About = () => {
+function About() {
     return (
         <body>
         <div class="main">

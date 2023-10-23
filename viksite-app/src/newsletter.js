@@ -1,4 +1,6 @@
 import React from "react";
+import './App.css';
+import waves from './waves.svg';
 
 
 const Newsletter = () => {
