@@ -6,6 +6,7 @@ body{
   margin: 0;
   align-items: center;
   
+  
 }
 
 div {
@@ -19,16 +20,23 @@ div {
   padding: 3rem 1.5rem;
   margin-left: 20rem;
   margin-right: 20rem;
-  margin-top: 20rem;
+  margin-top: 15rem;
   overflow: auto;
-  
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
+  
+
+
+
+
 .info {
   font-size: 1em;
   font-weight: 100;
   color: rgb(56, 56, 56);
   /* outline: solid red; */
   float: left;
+  
   
 }
 
@@ -42,7 +50,7 @@ div {
 }
 
 .midsection {
-  padding-left: 45rem;
+  padding-left: 15rem;
   
 }
 

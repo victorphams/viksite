@@ -2,6 +2,10 @@
 import waves from './waves.svg';
 import './App.css';
 import './index.css'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+
+
 
 function App() {
   return (
@@ -10,7 +14,7 @@ function App() {
         <div class="info">
           <h1 class="title">Victor Pham</h1>
           <p class="subtitle">Oklahoma City, OK</p>
-          <p class="subtitle">Student @ University of Oklahoma</p>
+          <p class="subtitle">Heya, I'm Vik and love doing a lot of things! As of October 2023, I'm interested in hiking, tennis, snowboarding, and video editing! I'm a computer science graduate from the University of Oklahoma. </p>
         </div>
 
         <div class="midsection"></div>
@@ -22,7 +26,7 @@ function App() {
           <br></br>
           <a href='https://linkedin.com/in/victorphams' target="_blank">linkedin</a><br></br>
           <br></br>
-          <a href='https://instagram.com/victorphams' target="_blank">instagram</a>
+          
           
         </div>
 
