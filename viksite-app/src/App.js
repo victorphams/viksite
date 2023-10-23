@@ -2,10 +2,10 @@
 import waves from './waves.svg';
 import './App.css';
 import './index.css'
-import Navbar from './Navbar'
+
 // import About from './about'
-import Newsletter from './newsletter'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Newsletter from './newsletter'
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
 
 
@@ -13,8 +13,12 @@ import ReactDOM from 'react-dom/client'
 function App() {
  return (
   <BrowserRouter>
+    {/* <nav>
+      <Link to="/">Home</Link> IMPORTANT FOR KEEPING STATE OF THE WEBPAGE WHEN SWITCHING PAGES
+      <Link to="/about">About</Link>
+    </nav> */}
     <Routes>
-      <Route path="/" element={<Home />}/>
+      <Route path="/" element={<About />}/>
       <Route path="/about" element={<About />}/>
    </Routes>
 </BrowserRouter>
