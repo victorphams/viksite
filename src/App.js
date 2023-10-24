@@ -1,5 +1,6 @@
 
 import waves from './waves.svg';
+import wavestop from './wavestop.svg'
 import './App.css';
 import './index.css'
 
@@ -37,6 +38,7 @@ function About() {
   return (
       <body>
       <div>
+      <img src={wavestop} class="waves z-10 absolute top-0"/>
         <div class="h-screen flex items-center">
         
         <div class="main container items-center w-5/6 z-20">
@@ -58,7 +60,7 @@ function About() {
 
     </div></div>
 
-          <img src={waves} class="waves z-10 absolute bottom-0"/>
+          {/* <img src={waves} class="waves z-10 absolute bottom-0"/> */}
       </div>
       
     </body>

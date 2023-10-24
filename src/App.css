@@ -16,8 +16,9 @@ body{
   font-family: 'Karla', monospace;
   margin: 0;
   align-items: center;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  background-image: url("/src/waves.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
   
 }
 
