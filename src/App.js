@@ -36,7 +36,7 @@ function Home () {
 function About() {
   return (
       <body>
-      <div class="h-screen flex items-center">
+      <div class="h-screen flex items-center z-20">
       
         <div class="main container items-center w-5/6">
           <div class="info space-y-5">
@@ -61,7 +61,7 @@ function About() {
         
       </div></div>
       
-      <img src={waves} className="waves"/>
+      <img src={waves} className="waves z-10"/>
     </body>
 
 );
