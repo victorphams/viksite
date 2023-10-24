@@ -36,8 +36,9 @@ function Home () {
 function About() {
   return (
       <body>
-      <div class="h-screen flex items-center">
-      
+      <div>
+        <div class="h-screen flex items-center">
+        
         <div class="main container items-center w-5/6 z-20">
           <div class="info space-y-5">
             <h1 class="title font-bold text-3xl">Victor Pham</h1>
@@ -51,13 +52,15 @@ function About() {
               <br></br>
               <a href='https://linkedin.com/in/victorphams' target="_blank">linkedin</a><br></br>
               <br></br>
-           </div>
           </div>
+         </div>
 
 
-      </div></div>
+    </div></div>
 
-      <img src={waves} class="waves z-10 absolute bottom-0"/>
+          <img src={waves} class="waves z-10 absolute bottom-0"/>
+      </div>
+      
     </body>
 
 );

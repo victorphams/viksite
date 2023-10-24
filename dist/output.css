@@ -655,6 +655,10 @@ video {
   font-weight: 700;
 }
 
+.outline {
+  outline-style: solid;
+}
+
 nav > a {
   color: black;
   float: right;
