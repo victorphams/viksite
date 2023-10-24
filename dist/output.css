@@ -608,24 +608,12 @@ video {
   }
 }
 
-.-z-50 {
-  z-index: -50;
-}
-
-.-z-10 {
-  z-index: -10;
-}
-
 .z-10 {
   z-index: 10;
 }
 
 .z-20 {
   z-index: 20;
-}
-
-.-z-20 {
-  z-index: -20;
 }
 
 .flex {
@@ -636,10 +624,6 @@ video {
   height: 100vh;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
 .w-5\/6 {
   width: 83.333333%;
 }
@@ -648,45 +632,18 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
+.overscroll-none {
+  overscroll-behavior: none;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.align-text-bottom {
-  vertical-align: text-bottom;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.bg-\[url\(\'src\/waves\.svg\'\)\] {
+  background-image: url('src/waves.svg');
 }
 
 .text-3xl {
@@ -696,16 +653,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.text-green-500 {
-  --tw-text-opacity: 1;
-  color: rgb(34 197 94 / var(--tw-text-opacity));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .outline {
@@ -760,14 +707,6 @@ div {
   margin-left: .5em;
 }
 
-.midsection {
-  padding-left: 35rem;
-}
-
-.links {
-  /* outline: solid green; */
-}
-
 .waves
 {
   position: absolute;
@@ -801,27 +740,6 @@ a::hover {
   font-size: calc(10px + 2vmin);
   color: white;
 } */
-
-@media (min-width: 640px) {
-  .tablet\:text-red-500 {
-    --tw-text-opacity: 1;
-    color: rgb(239 68 68 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 1024px) {
-  .laptop\:text-blue-500 {
-    --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 1280px) {
-  .desktop\:text-purple-500 {
-    --tw-text-opacity: 1;
-    color: rgb(168 85 247 / var(--tw-text-opacity));
-  }
-}
 
 
 

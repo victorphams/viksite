@@ -12,7 +12,11 @@ module.exports = {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'waves': "url('src/waves.svg')"
+      }
+    },
     container: {
       center: true
     }
