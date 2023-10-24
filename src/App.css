@@ -16,9 +16,10 @@ body{
   font-family: 'Karla', monospace;
   margin: 0;
   align-items: center;
-  background-image: url("/src/waves.svg");
+  
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: cover;
   
 }
 

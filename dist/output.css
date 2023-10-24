@@ -616,10 +616,6 @@ video {
   bottom: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -650,6 +646,10 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.bg-\[url\(\'\/src\/waves-desktop\.svg\'\)\] {
+  background-image: url('/src/waves-desktop.svg');
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -670,9 +670,9 @@ body{
   font-family: 'Karla', monospace;
   margin: 0;
   align-items: center;
-  background-image: url("/src/waves.svg");
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: cover;
 }
 
 div {

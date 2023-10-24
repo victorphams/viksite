@@ -1,6 +1,6 @@
 
 import waves from './waves.svg';
-import wavestop from './wavestop.svg'
+
 import './App.css';
 import './index.css'
 
@@ -36,16 +36,15 @@ function Home () {
 
 function About() {
   return (
-      <body>
+      <body class="bg-[url('/src/waves-desktop.svg')]">
       <div>
-      <img src={wavestop} class="waves z-10 absolute top-0"/>
         <div class="h-screen flex items-center">
         
         <div class="main container items-center w-5/6 z-20">
           <div class="info space-y-5">
             <h1 class="title font-bold text-3xl">Victor Pham</h1>
             <p class="subtitle">Oklahoma City, OK</p>
-            <p>Heya! I'm Vik and love doing a lot of things! I'm a recent computer science graduate from the University of Oklahoma. </p>
+            <p>Wealth, fame, power. Gold Roger, the King of the Pirates, attained everything this world has to offer. And so, many men head for the Grand Line to find the great treasure he left behind, the One Piece.</p>
           
             <div class="links">
               <a href='mailto:victor.phamk@gmail.com'>email</a><br></br>
