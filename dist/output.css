@@ -646,10 +646,6 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.overscroll-none {
-  overscroll-behavior: none;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -657,10 +653,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.outline {
-  outline-style: solid;
 }
 
 nav > a {
@@ -674,6 +666,7 @@ body{
   font-family: 'Karla', monospace;
   margin: 0;
   align-items: center;
+  padding-bottom: env(safe-area-inset-bottom)
 }
 
 div {
