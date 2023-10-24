@@ -40,7 +40,7 @@ function About() {
       <div>
         <div class="h-screen flex items-center">
         
-        <div class="main container items-center w-5/6 z-20">
+        <div class="main container items-center w-5/6 z-20 mb-10">
           <div class="info space-y-5">
             <h1 class="title font-bold text-3xl">Victor Pham</h1>
             <p class="subtitle">Oklahoma City, OK</p>
