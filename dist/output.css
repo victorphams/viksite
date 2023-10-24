@@ -666,7 +666,8 @@ body{
   font-family: 'Karla', monospace;
   margin: 0;
   align-items: center;
-  padding-bottom: env(safe-area-inset-bottom)
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 div {
