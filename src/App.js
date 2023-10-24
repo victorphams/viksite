@@ -44,7 +44,7 @@ function About() {
           <div class="info space-y-5">
             <h1 class="title font-bold text-3xl">Victor Pham</h1>
             <p class="subtitle">Oklahoma City, OK</p>
-            <p>Wealth, fame, power. Gold Roger, the King of the Pirates, attained everything this world has to offer. And so, many men head for the Grand Line to find the great treasure he left behind, the One Piece.</p>
+            <p>vik is a visionary, a strategist, an entrepreneur, a philanthropist, a mentor, a pioneer, a leader, a researcher, a motivator, an artist, a trailblazer, an advocate, a thinker, a collaborator, an innovator, a mediator, a problem-solver, a storyteller, and a guardian. These descriptors illuminate the diverse dimensions of his character, showcasing his ability to adapt, inspire, and thrive in numerous arenas of his personal and professional endeavors.</p>
           
             <div class="links">
               <a href='mailto:victor.phamk@gmail.com'>email</a><br></br>
