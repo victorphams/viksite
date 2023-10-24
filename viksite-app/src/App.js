@@ -2,12 +2,11 @@
 import waves from './waves.svg';
 import './App.css';
 import './index.css'
-//
+
 // import About from './about'
 // import Newsletter from './newsletter'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
-
 
 
 function App() {
