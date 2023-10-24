@@ -646,6 +646,10 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.overscroll-none {
+  overscroll-behavior: none;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;

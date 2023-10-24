@@ -36,7 +36,7 @@ function Home () {
 function About() {
   return (
       <body>
-      <div>
+      <div class="overscroll-none">
         <div class="h-screen flex items-center">
         
         <div class="main container items-center w-5/6 z-20">
