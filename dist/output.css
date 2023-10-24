@@ -608,6 +608,14 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -638,14 +646,6 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.overscroll-none {
-  overscroll-behavior: none;
-}
-
-.bg-\[url\(\'src\/waves\.svg\'\)\] {
-  background-image: url('src/waves.svg');
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -653,10 +653,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.outline {
-  outline-style: solid;
 }
 
 nav > a {
@@ -705,12 +701,6 @@ div {
 
 .subtitle {
   margin-left: .5em;
-}
-
-.waves
-{
-  position: absolute;
-  bottom: 0;
 }
 
 a {

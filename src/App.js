@@ -35,7 +35,7 @@ function Home () {
 
 function About() {
   return (
-      <body class="overscroll-none">
+      <body>
       <div class="h-screen flex items-center">
       
         <div class="main container items-center w-5/6 z-20">
@@ -57,7 +57,7 @@ function About() {
 
       </div></div>
 
-      <img src={waves} className="waves z-10"/>
+      <img src={waves} class="waves z-10 absolute bottom-0"/>
     </body>
 
 );
