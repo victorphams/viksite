@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 nav > a {
   color: black;
@@ -22,13 +26,13 @@ div {
 }
 
 .main {
-  display: flex;
+  /* display: flex; */
   background-color: rgba(255, 255, 255, 0.836);
-  align-items: center;
+  /* align-items: center; */
   padding: 3rem 1.5rem;
-  margin-left: 20rem;
+  /* margin-left: 20rem;
   margin-right: 20rem;
-  margin-top: 15rem;
+  margin-top: 15rem; */
   overflow: auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
