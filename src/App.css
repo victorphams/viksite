@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 nav > a {
   color: black;
@@ -13,6 +17,9 @@ body{
   margin: 0;
   align-items: center;
   
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
   
 }
 
@@ -22,13 +29,13 @@ div {
 }
 
 .main {
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.836);
-  align-items: center;
+  /* display: flex; */
+  background-color: rgba(255, 255, 255, 0.975);
+  /* align-items: center; */
   padding: 3rem 1.5rem;
-  margin-left: 20rem;
+  /* margin-left: 20rem;
   margin-right: 20rem;
-  margin-top: 15rem;
+  margin-top: 15rem; */
   overflow: auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -51,6 +58,7 @@ div {
 
 .title {
   margin-bottom: -.25em;
+  
 }
 
 .subtitle {
@@ -58,22 +66,11 @@ div {
  
 }
 
-.midsection {
-  padding-left: 35rem;
-  
-}
-
-.links {
-  /* outline: solid green; */
-  
-}
 
 
-.waves
-{
-  position: absolute;
-  bottom: 0;
-}
+
+
+
 
 a {
   color: rgb(58, 181, 181);
