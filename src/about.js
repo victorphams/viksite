@@ -9,7 +9,7 @@ function About() {
           <div class="info">
             <h1 class="title">Victor Pham</h1>
             <p class="subtitle">Oklahoma City, OK</p>
-            <p class="subtitle">hell ya</p>
+            <p class="subtitle">hell ye</p>
           </div>
   
           <div class="midsection"></div>
