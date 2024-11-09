@@ -44,7 +44,7 @@ function About() {
           <div class="info space-y-5">
             <h1 class="title font-bold text-3xl">Victor Pham</h1>
             <p class="subtitle">Oklahoma City, OK</p>
-            <p class="text-xs tablet:text-sm laptop:text-base desktop:text-lg">hell ya</p>
+            <p class="text-xs tablet:text-sm laptop:text-base desktop:text-lg">hell ye</p>
           
             <div class="links">
               <a href='mailto:victor.phamk@gmail.com'>email</a><br></br>
