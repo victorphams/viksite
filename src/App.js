@@ -3,11 +3,13 @@ import waves from './waves.svg';
 
 import './App.css';
 import './index.css'
+import './about.css'
 
 // import About from './about'
 // import Newsletter from './newsletter'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
+import About from './about';
 
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
       <Link to="/about">About</Link>
     </nav> */}
     <Routes>
-      <Route path="/" element={<Home />}/>
+      <Route path="/" element={<About />}/>
    </Routes>
 </BrowserRouter>
  )
