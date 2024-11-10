@@ -3,8 +3,6 @@ import waves from './waves.svg';
 
 import './App.css';
 import './index.css'
-import './about.css'
-
 // import About from './about'
 // import Newsletter from './newsletter'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
